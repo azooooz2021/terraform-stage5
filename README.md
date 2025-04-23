@@ -74,6 +74,7 @@ chatbot_infra/
    - Edit `terraform.tfvars` to customize values (e.g., `resource_group_name`, `location`, `ssh_public_key_path`).
    - Example:
      ```hcl
+     subscription_id = ""
      resource_group_name = "chatbot-rg"
      location            = "westus2"
      prefix              = "chatbot"
